@@ -16,7 +16,7 @@ public class Fighter {
         System.out.println(this.name+"は"+enemy.name+"に"+this.power+"ダメージを与えた。");
     }
 
-    public boolean iaAlive(){
+    public boolean isAlive(){
         if(this.hitPoint>0){
             return true;
         }else{
@@ -25,5 +25,13 @@ public class Fighter {
     }
     public int getHitPoint(){
         return this.hitPoint;
+    }
+
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
+    }
+
+    public String getName(){
+        return this.name;
     }
 }
