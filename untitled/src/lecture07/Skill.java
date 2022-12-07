@@ -11,4 +11,12 @@ public class Skill {
     public int getPower() {
         return power;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
 }
